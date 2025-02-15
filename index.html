@@ -1,0 +1,309 @@
+<!DOCTYPE hmtl>
+<html lang ="en">
+
+<head>
+  <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Python Technical document" />
+  <title>Python Programming Language</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav id="navbar">
+      <header>Python Documentation</header>
+<ul>
+      <li><a href="#Introduction" class="nav-link">Introduction</a></li>
+
+      <li><a href="#Prerequisite" class="nav-link">Prerequisite</a></li>
+
+      <li><a href="#Python_as_a_Language" class="nav-link">Python as a Language</a></li>
+
+     <li> <a href="#Getting_Started" class="nav-link">Getting Started</a></li>
+
+     <li> <a href="#Your_First_Output" class="nav-link">Your First Output</a></li>
+
+     <li> <a href="#Variable" class="nav-link">Variable</a></li>
+
+     <li> <a href="#Declaring_a_Variable" class="nav-link">Declaring a Variable</a></li>
+
+     <li> <a href="#Global_Variable" class="nav-link">Global Variable</a></li>
+
+     <li> <a href="#Statement" class="nav-link">Statement</a></li>
+
+   <li>   <a href="#Data_Types" class="nav-link">Data Types</a></li>
+
+      <li><a href="#Control_Flow" class="nav-link">Control Flow</a></li>
+
+      <li><a href="#Functions" class="nav-link">Functions</a></li>
+
+    <li>  <a href="#Libraries" class="nav-link">Libraries</a></li>
+     <li> <a href="#Reference" class="nav-link">Reference</a></li>
+</ul>
+    </nav>
+
+  <main id="main-doc">
+    
+    <section class="main-section" id="Introduction">
+      <header>Introduction</header>
+      <p>Computers cannot make decision on their own,hence they a need a set of programs or instruction they need to follow to be able to execute task easily.</p>
+        <p>To make this task easier, human created programming languages, which makes interaction between computer and humans easier(i.e human write codes computer understand which is also understood by humans).</p>
+        <p>There are several programming languages and Python is one of them. Python is a high-level, interpreted programming language that is widely used for:</p>
+        <ul>
+          <li><strong><i><span class="underline">Web Development:</span></i></strong> Python is used in web development frameworks such as Django and Flask</li>
+           <li><strong><i><span class="underline">Data Analysis:</span></i></strong> Python is widely used in data analysis and science, thanks to libraries such as NumPy,Pandas and Matplotlib</li>
+            
+        </ul>
+      </section>
+
+    <section class="main-section" id="Prerequisite">
+<header>Prerequisite</header>
+<p>To get started with programming in python, there are few things to get familiarize with which includes:</p>
+<ul>
+  <li>Basic algebra and mathematical operations</li>
+   <li>Understanding of data types (e.g numbers,strings and lists) </li> 
+   <li>Familiarity with computer and basic software applications.</li>
+    <li>Understanding of basic concepts like files, folders and navigation.</li>
+</ul>
+    </section>
+
+    <section class="main-section" id="Python_as_a_Language">
+      <header>Python as a Language</header>
+      <p>Python is a high-level programming language that has been in existence since the late 1980s. Created by Guido van Rossum, Python was first released in 1991 as a successor to the ABC programming language. Van Rossum's goal was to develop a scripting language that was easy to learn and could be used for a wide range of applications.</p>
+      <p>Python's simplicity,flexibility and extensibility have made it a popular choice for various applications. Is is widely used in web development, data analysis, machine learning, automation and education. Python's versatility has also made it a favorite among developers, scientists and researchers.</p>
+      <p>Today, python is used in many industries including web development, scientific computing and data analysis. Its application include YouTube,Instagram and Pinterest, which use Python in their backend infrastructure.Overall,Python's history and usage demonstrate its flexibility, simplicity and versatility, making it a popular programming language.</p>
+    </section>
+
+    <section class="main-section" id="Getting_Started">
+      <header>Getting Started</header>
+      <p>Here are steps to get started with programming in Python</p>
+      <p><strong>Step 1: Install Python</strong></p>
+      <ol type="1">
+        <li>Go to python official <a href="https://www.python.org/" target ="_blank"> website</a> and download the latest version of Python.</li><br>
+        <li>Follow the installation instructions for your operating system(Windows, macOS or Linux)</li>
+      </ol>
+      <p><strong>Step 2: Choose a Text Editor or IDE</strong></p>
+      <ol type="1">
+        <li>A text editor(e.g Notepad++, Sublime Text) or Integrated Development Environment(IDE e.g.,Pycharm, Visual Studio Code) is needed to write Python code</li><br>
+        <li>Choose one that suits your needs and skill level</li>
+      </ol>
+      <p><strong>Step 3: Set Up Your Environment</strong></p>
+      <ol type="1">
+        <li>Set Up your Python environment by adding the Python executable to your system's path.</li><br>
+        <li>Verify that python is installed correctly by opening a terminal or command prompt and typing <code class="code-area"> python --version</code> </li>
+      </ol>
+      <p><strong>Step 4: Learn Basic Syntax, Libraries and Framework</strong></p>
+      <ol type="1">
+        <li>Start learning basic Python syntax, such as variables, data types, loops,conditional statements, functions and modules</li><br>
+        <li>Familiarize yourself with popular Python libraries and frameworks</li><br>
+        <li>Online resources like freeCodeCamp,Codecademy,W3Schools and official Python documentation can help</li>
+      </ol>
+    <p><strong>Step 5: Practice writing codes and building projects.</strong></p>
+      <ol type="1">
+        <li>Practice writing codes with platforms like <a href="www.replit.com" target="_blank"> Repl.it</a>, Ideone or Google Colab </li><br>
+        <li>Apply your python skills to real-world project from building simple Calculator to building complex projects.</li>
+      </ol>
+      <p><strong>Step 6: Join online communities and Stay-Up-To-Date</strong></p>
+      <ol type="1">
+        <li>Join online communities, such as Reddit's r/learnpython, r/Python and Stack Overflow, to connect with other Python programmers </li>
+        <li>Participate in discussions, ask questions and learn from others</li>
+        <li>stay current with the latest Python developments,updates and best practices
+        </ol>
+    </section>
+
+    <section class="main-section" id ="Your_First_Output"><header>Your First Output</header>
+    <p>To get your first output in python, you type the following code in your I.D.E:</p>
+    <code class="code-area"> print("Hello World")<br>Output // Hello World</code>
+    </section>
+
+    <section class="main-section" id="Variable">
+      <header>Variable</header>
+      <p>Variables are used as containers to store different values in Python.This data value can range from strings (represented as a word in quotation mark - "String", output gives the word String in quotation mark), Integer(9 , 8.0 i.e numbers),floats(8.9 i.e decimal number), boolean(i.e True or False), list(i.e string of different data types in bold bracket,["list1", number value, boolean.....]) e.t.c)</p>
+      <p>There are more data types that can be added into a variable, to know more about this, visit python official <a href="www.python.org" target="_blank"> webpage </a>
+    </section>
+
+    <section class="main-section" id="Declaring_a_Variable">
+      <header>Declaring a Variable</header>
+      <p>To declare a variable in python, the "=" sign is used to assign value to the variable name, i.e</p>
+      <code class="code-area"> variable_name = "Variable name"<br>
+      print(variable_name)<br>
+      Output // The output of the code will be the word inside the quotation mark, which is - Variable name</code>
+    </section>
+
+    <section class="main-section" id="Global_Variable">
+      <header>Global Variable</header>
+      <p>Global variables in Python are variables that are defined outside of any function and can be accessed from any part of the program, including within functions. They are useful for sharing data across different parts of a program.<br>An example of a global variable is given as:</p>
+      <code class="code-area"># To define a global variable, we do: <br># Define a global variable<br>
+x = "awesome"<br>
+def myfunc():<br>
+# Access the global variable<br>
+print("Python is " +  x)<br>
+myfunc()<br>
+Output// Python is awesome
+</code>
+      </section>
+
+    <section class="main-section" id="Statement">
+      <header>Statement</header>
+      <p>A <b>statement</b> in Python is an instruction that the Python interpreter can execute. Python statements can be simple or compound, and they can span multiple lines.</p>
+      <h3>Example of Simple Statement</h3>
+      <code class="code-area"># Assignment statement<br>
+x = 10<br>
+# Print statement<br>
+print(x)</code>
+    </section>
+    <section class="main-section" id="Data_Types">
+      <header>Data Types</header>
+      <p>In Python, data types are used to classify and categorize data items. They define the kind of value a variable can hold and the operations that can be performed on it. Python has several built-in data types, each serving a specific purpose.<br>There are several data types which includes:
+      <ul>
+        <li><b>Numeric Data Types:</b> these are data types involving numbers.<br>
+        <ol type="i">
+          <li>
+          <b>int</b>- represent integers(i.e x = 4).
+          </li>
+          <li>
+          <b>float</b>- represent decimal numbers(i.e x = 32.5).
+          </li>
+          <li>
+          <b>complex</b>- represent complex numbers(i.e x = 3 + 2j).
+          </li>
+        </ol>
+          </li><br>
+
+          <code class="code-area">Example:<br>a = 5<br>
+b = 5.0<br>
+c = 1 + 2j<br>
+print(type(a)) #&ltclass 'int'&gt<br>
+print(type(b)) #&ltclass 'float'&gt<br>
+print(type(c)) #&ltclass 'complex'&gt<br></code><br>
+        <li><b>Sequence Data Types:</b> this data types represent ordered collections of items and include:
+        <ol type="i">
+          <li><b>str:</b> represents strings, e.g., x = "Hello World".</li>
+          <li><b>list:</b> represents lists, e.g., x = ["apple", "banana", "cherry"].</li>
+          <li><b>tuple:</b>represents tuples, e.g., x = ("apple", "banana", "cherry").</li>
+          <li><b>range:</b> represents ranges, e.g., x = range(6).</li>
+          </ol>
+          </li><br>
+          <code class="code-area">Example:<br>
+languages = ["Swift", "Java", "Python"]<br>
+print(languages[0]) # Swift<br>
+print(languages[2]) # Python<br></code><br>
+        
+      
+      <li><b>Mapping Data Types:</b> the mapping data type represents data in key-value pairs and includes:
+        <ol type="i">
+          <li><b>dict:</b>represents dictionaries, e.g., x = {"name": "John", "age": 36}</li>
+          </ol>
+          </li><br>
+          <code class="code-area">Example:<br>
+capital_city = {'Nepal': 'Kathmandu', 'Italy': 'Rome', 'England': 'London'}<br>
+print(capital_city['Nepal']) # Kathmandu<br></code><br> 
+
+
+      <li><b>Set Data Types:</b>Set data types represent unordered collections of unique items and include:
+        <ol type="i">
+          <li><b>set:</b>represents sets, e.g., x = {"apple", "banana", "cherry"}.</li>
+          <li><b>frozenset:</b>represents immutable sets, e.g., x = frozenset({"apple", "banana", "cherry"}).</li>
+          </ol>
+          </li><br>
+
+          <code class="code-area">Example:<br>
+set1 = {"Geeks", "For", "Geeks"}<br>
+print(set1) # {'Geeks', 'For'}<br></code><br>
+
+<li><b>Boolean Data Types:</b>The boolean data type represents truth values and includes:
+        <ol type="i">
+          <li><b>bool:</b>represents boolean values, e.g., x = True.</li>
+          </ol>
+          </li><br>
+          <code class="code-area">Example:<br>
+print(type(True)) # &ltclass 'bool'&gt<br>
+print(type(False)) #&ltclass 'bool'&gt<br>
+</code><br>
+
+<li><b>Binary Data Types:</b>Binary data types represent binary data and include:
+        <ol type="i">
+          <li><b>bytes:</b>represents immutable sequences of bytes, e.g., x = b"Hello".</li>
+          <li><b>bytearray: </b>represents mutable sequences of bytes, e.g., x = bytearray(5).</li>
+          <li><b>memoryview: </b>represents  memory views, e.g., x = memoryview(bytes(5)).</li>
+          </ol>
+          </li><br>
+          <code class="code-area">Example:<br>
+x = b"Hello"<br>
+print(type(x)) # &ltclass 'bytes'&gt<br>
+print(type(False)) #class 'bool'<br>
+</code><br>
+
+<li><b>None Type:</b>The None type represents the absence of a value and includes::
+        <ol type="i">
+          <li><b>Nonetype:</b>Represents the None value, e.g., x = None.</li>
+          </ol>
+          </li><br>
+          <code class="code-area">Example:<br>
+x = None<br>
+print(type(x)) # &ltclass 'NoneType'&gt
+</code>
+        </ul>
+        </p>
+      </section>
+
+    <section class="main-section" id="Control_Flow">
+      <header>Control Flow</header>
+      <p>Flow control in Python refers to the order in which individual statements, instructions, or function calls are executed or evaluated. Python provides several control flow statements to manage the execution of code based on conditions, loops, and other criteria.</p>
+      <p>This consist of different types of statement used in making decision, which includes:</p>
+          <h3>Conditional Statements</h3>
+          <p>Conditional statements allows you to execute different blocks of code based on certain conditions. The primary conditional statements in Python are:
+            <ul>
+              <li><b>if statement:</b> Executes a block of code if a specified condition is true.<br>For example<br><code class="code-area"> x = 10<br> if x > 5:<br> &nbsp &nbspprint("x is greater than 5")</code></li><br>
+              <li><b>if-else statement:</b>Checks multiple conditions in sequence and executes the corresponding block of code for the first true condition. <br>For Example<br><code class="code-area">x = 10<br> if x > 10: <br>&nbsp&nbsp&nbspprint("x is greater than 10")<br> elif x == 10: <br>&nbsp&nbsp&nbspprint("x is equal to 10") <br>else:<br>&nbsp&nbsp&nbsp print("x is less than 10")</code></li><br>
+               <li><b>if-elif-else statement:</b> checks multiple conditions in sequence and executes the corresponding block of code for the first true condition.<br>For example<br><code class="code-area"> x = 10<br> if x > 10:<br>&nbsp&nbsp&nbsp&nbsp print("x is greater than 10")<br> elif x == 10:<br>  &nbsp&nbsp&nbsp&nbspprint("x is equal to 10") <br> else: <br> &nbsp&nbsp&nbsp&nbspprint("x is less than 10")</code></li>
+            </ul>
+          
+      </p>
+
+              <h3>Transfer Statements</h3>
+          <p>Transfer statements are used to alter the normal flow of execution in a program. Python provides three main transfer statements:
+            <ul>
+              <li><b>break statement:</b>exits the nearest enclosing loop immediately. <br>For example<br><code class="code-area">for i in range(10):<br> &nbsp&nbsp if i == 5:<br> &nbsp&nbsp&nbsp&nbsp&nbsp&nbspbreak<br> &nbsp&nbsp&nbsp&nbspprint(i)</code></li>
+              <li><b>continue statement:</b>skips the rest of the code inside the current loop iteration and moves to the next iteration. <br>For example<br><code class="code-area">for i in range(10):<br>&nbsp&nbsp&nbsp if i == 5:<br> &nbsp&nbsp&nbsp&nbsp&nbsp&nbspcontinue<br> &nbsp&nbsp&nbsp&nbsp&nbsp&nbspprint(i)</code></li>
+               <li><b>pass statement:</b>does nothing and is used as a placeholder for future code.<br>For example<code class="code-area" for i in range(10):<br> &nbsp&nbsp&nbspif i == 5:<br>&nbsp&nbsp&nbsp&nbsp pass<br>&nbsp&nbsp&nbsp&nbsp print(i)</code></li>
+            </ul>
+          
+      </p>
+
+                <h3>Iterative Statements</h3>
+          <p>Iterative statements, also known as loops, allow you to execute a block of code repeatedly as long as a specified condition is true. Python provides two main types of loops:
+            <ul>
+              <li><b>for loop:</b>  Iterates over a sequence (such as a list, tuple, or string) and executes a block of code for each item in the sequence.<br>For example<br><code class="code-area"> for i in range(5):<br>&nbsp&nbsp&nbsp print(i)</code></li><br>
+              <li><b>while loop:</b>repeatedly executes a block of code as long as a specified condition is true.<br>For example:<br><code class="code-area"> i = 0 <br>while i < 5: <br>&nbsp&nbsp&nbsp&nbspprint(i)<br>&nbsp&nbsp&nbsp&nbsp i += 1</code></li>
+               
+            </ul>
+          
+      </p>
+    </section>
+    <section class="main-section" id="Functions">
+      <header>Functions</header>
+      <p>A function in Python is a block of reusable code that performs a specific task. Functions help in organizing code, making it more readable and reusable. They can accept inputs (arguments) and return outputs.</p>
+      <h3>Creating and Calling Functions</h3>
+      <p>To define a function in Python, use the <span class="code-area-def" >def</span> keyword followed by the function name and parentheses. Inside the parentheses, you can specify parameters. Here's a simple example:<code class="code-area"><br>#creating a function in python, we use the def keyword<br>def greet():<br>
+&nbsp&nbsp&nbsp&nbsp print('Hello World!')<br>
+# Calling the function<br>
+greet()</code><br>In this example, the function greet() prints "Hello World!" when called.</p>
+    </section>
+    <section class="main-section" id="Libraries">
+      <header>Libraries</header></section> 
+      <p>Python libraries are collections of pre-written code that can be used to perform various tasks, making programming simpler and more efficient. These libraries contain modules and packages that provide reusable functions and classes for specific functionalities, such as data analysis, machine learning, web development, and more<br>To install a library in python, we do:<code class="code-area"><br>pip install library_name<br>#for example, to install the kivy libary<br>#We go to the terminal and type:<br>pip install kivy</code></p>
+      <section class="main-section" id="Reference">
+        <header>Reference</header>
+        <p>To learn more about python,you can visit the following website.<br>
+        <ul>
+          <li><a href="https://www.geeksforgeeks.org/" target="_blank">GeekforGeek</a></li>
+          <li><a href="https://www.bing.com/ck/a?!&&p=bab3ad173219ac0835fc128c935da358f26420d2de4d206b49a19fa7e55e1934JmltdHM9MTczNzQxNzYwMA&ptn=3&ver=2&hsh=4&fclid=25528679-d44f-6ff6-3fca-92acd5af6e8d&psq=Functions+in+python&u=a1aHR0cHM6Ly93d3cudzNzY2hvb2xzLmNvbS9weXRob24vcHl0aG9uX2Z1bmN0aW9ucy5hc3A&ntb=1" target="_blank">w3schools</a></li>
+          <li><a href="https://pynative.com/python-control-flow-statements/" target="_blank">pynative</a></li>
+          </ul>
+          Some of this page content is refernced from this websites.</p>
+      </section>
+
+  </main>
+  </body>
+
+</html>
